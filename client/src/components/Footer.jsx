@@ -1,8 +1,14 @@
-const Footer = () => {
-  return (
-    <div>Footer
-    </div>
-  )
-}
+import React from "react";
+import Logo from '../assets/Be-blog.png'
 
-export default Footer
+const Footer = () => {
+  return(
+  <footer>
+    <img src={Logo} alt="" />
+    <span>
+      Made with ♥ and <b>React.js</b>.
+    </span>
+  </footer>
+  )
+};
+export default Footer;
