@@ -4,7 +4,7 @@ $lightGreen: #b9e7e7;
   display: flex;
   justify-content: center;
   .container {
-    width: 100%;
+    width: 1024px;
 
     .link {
       text-decoration: none;
@@ -237,8 +237,8 @@ $lightGreen: #b9e7e7;
           gap: 5px;
 
           img {
-            width: 20px;
-            height: 20px;
+            width: 25px;
+            height: 25px;
             cursor: pointer;
           }
         }
